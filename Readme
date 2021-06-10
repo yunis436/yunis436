@@ -1,19 +1,1 @@
-<html>
-    <body>To: Mas Aji
-        <h1>Hai Masku ganteng bontot kesayangan</h1>
-        <img src="//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2Fe3a906a565a5ed8c11b4d940c10ca06f%2Ftenor.gif%3Fitemid%3D12129586&amp;f=1&amp;nofb=1">
-        <h1>Kita perbaiki jika ingin masih bersama, Maafiin aku ya sayang?</h1>
-        <button id='btn_mau' onclick='alert("I <3 U")'>Mau</button>&nbsp;
-        <button id='btn_gamau' onclick='gamau(this)' style='position:absolute'>Gamau</button>
-    </body>
-    <script>
-        function gamau(id){
-            var mau = document.getElementById('btn_mau');
-            var i = Math.floor(Math.random()*300)+1;
-            var j = Math.floor(Math.random()*100)+mau.offsetTop;
-            id.style.left = i+'px';
-            id.style.top = j+'px';
-        }
-    </script>
-</html>
 
